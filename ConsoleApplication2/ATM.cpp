@@ -3,6 +3,8 @@
 ATM::ATM()
 {
 	ID_now = "";
+	lenh_ = 0;
+	size_t time_delay = 1000;
 	cout << "Waiting for really..." << endl;
 	ifstream readID("CurrentID.txt");
 	string IDread;
@@ -16,7 +18,7 @@ ATM::ATM()
 		moneynow += c.first * c.second;
 	system("cls");
 	cout << "WELCOME TO ATM CREATED BY GIAP HUY!"<<endl;
-	_sleep(1000);
+	_sleep(time_delay);
 }
 void ATM::prinf_listID()
 {
@@ -24,13 +26,21 @@ void ATM::prinf_listID()
 }
 void ATM::login()
 {
-	size_t time = 1500;
 	string ID_;
 	string pass_;
 A:
 	gd_dang_nhap1();
 	cin >> ID_;
-	if (ID_ == "0") return;
+	if (ID_ == "0")
+	{
+		lenh_ = 100;
+		return;
+	}
+	if (ID_ == "1")
+	{
+		lenh_ = 50;
+		return;
+	}
 	else
 	{
 		if (listID.count(ID_))
@@ -40,14 +50,14 @@ A:
 			{
 				cout << "This account had been blocked, please choose other account!" << endl;
 				setlock(ID_);
-				_sleep(time);
+				_sleep(time_delay);
 				system("cls");
 				goto A;
 			}
 			if (!members[ID_].getlock())
 			{
 				cout << "This account was locked, plese choose new account!" << endl;
-				_sleep(time);
+				_sleep(time_delay);
 				goto A;
 				
 			}
@@ -55,7 +65,10 @@ A:
 		B:
 			gd_dang_nhap2(ID_);
 			cin >> pass_;
-			if (pass_ == "0") return;
+			if (pass_ == "0") {
+				lenh_ = 100;
+				return;
+			}
 			if (pass_ == "1")
 			{
 				system("cls");
@@ -68,13 +81,13 @@ A:
 				{
 					cout << "ID now be blocked after 5 fail entering password!" << endl;
 					members[ID_].setlock(false);
-					_sleep(time);
+					_sleep(time_delay);
 					goto A;
 				}
 				else
 				{
 					cout << "Sai mat khau, vui long nhap lai!" << endl;
-					_sleep(time);
+					_sleep(time_delay);
 					goto B;
 				}
 
@@ -83,28 +96,39 @@ A:
 			{
 				cout << "Login Sucessful!" << endl;
 				ID_now = ID_;
+				string content = "LOGIN: " + get_time();
+				insert_history(content);
+				_sleep(time_delay);
+				lenh_ = 7;
 			}
 		}
 		else
 		{
 			cout << "ID not exist! Please nhap lai!" << endl;
-			_sleep(time);
+			_sleep(time_delay);
 			goto A;
 		}
 	}
+}
+void ATM::gd_log_out()
+{
+	system("cls");
+	cout << "                LOG OUT                \n";
+	cout << setfill(' ') << left << setw(30) << "Xin chao " + ID_now << setw(30) << "So du:***********" << endl;
+	cout << setfill(' ') << left << setw(30) << "1. Xac nhan dang xuat" << setfill(' ') << setw(30) << "2. Quay lai menu" << endl;
 }
 void ATM::gd_dang_nhap1()
 {
 	system("cls");
 	cout << "                      LOGIN                     " << endl;
-	cout << "Nhap 0 de quay lai" << endl;
+	cout << setfill(' ') << left << setw(30) << "0. Quay lai" << setfill(' ') << setw(30) << "1. Dang ky" << endl;
 	cout << "Vui long nhap ID:" << endl;
 }
 void ATM::gd_dang_nhap2(const string& ID_)
 {
 	system("cls");
 	cout << "                      LOGIN                     " << endl;
-	cout << "Nhap 0 de thoat ve menu, 1 de tro lai dang nhap" << endl;
+	cout << setfill(' ') << left << setw(30) << "0. Thoat" << setfill(' ') << setw(30) << "1. Quay lai" << endl;
 	cout << "Hello " << ID_ << " , vui long nhap password:" << endl;
 }
 void ATM::loadmember(const string& ID_)
@@ -168,13 +192,16 @@ void ATM::openlock(const string& ID_)
 }
 void ATM::regist()
 {
-	size_t time_delay = 1500;
 A:
 	gd_dang_ky1();
 	string ID_;
 	string pass_;
 	cin >> ID_;
-	if (ID_ == "0") return;
+	if (ID_ == "0")
+	{
+		lenh_ = 0;
+		return;
+	}
 	if (listID.count(ID_))
 	{
 		cout << "Account had been existed!" << endl;
@@ -204,6 +231,7 @@ A:
 			newmember << pass_ << " 0 1";
 			newmember.close();
 			loadmember(ID_);
+			lenh_ = 7;
 		}
 
 	}
@@ -213,7 +241,7 @@ void ATM::gd_dang_ky1()
 {
 	system("cls");
 	cout << "               REGIST                   " << endl;
-	cout << "Nhap 0 de thoat!" << endl;
+	cout << "0. Thoat dang ky" << endl;
 	cout << "Vui long nhap tai khoan:" << endl;
 }
 void ATM::gd_dang_ky2()
@@ -248,7 +276,7 @@ void ATM::gd_ruttien()
 	cout << "                 RUT TIEN               " << endl;
 	cout << setfill(' ') << left << setw(30) << "Xin chao " + ID_now << setw(30) << "So du:***********" << endl;
 	cout << setfill(' ') << left << setw(30) << "1. Xem tai khoan hien tai" << setfill(' ') << setw(30) << "2. Quay lai" << endl;
-	cout << "Nhap so tien muon rut. Luu y: So tien muon rut phai la boi so cua 10000" << endl;
+	cout << "Nhap so tien muon rut. Luu y: So tien muon rut phai la boi so cua 10000, toi da 3000000" << endl;
 }
 void ATM::gd_xemtk()
 {
@@ -290,13 +318,20 @@ void ATM::up_balance()
 void ATM::recharge()
 {
 	size_t dieuhuong;
-	size_t time_delay = 1500;
 	map<size_t, int> m = { {1, 500000},{2, 200000},{3, 100000},{5, 50000},{6, 20000},{7, 10000} };
 A:
 	gd_guitien();
 	cin >> dieuhuong;
-	if (dieuhuong == 4) return;
-	if (dieuhuong == 8) return;
+	if (dieuhuong == 4)
+	{
+		lenh_ = 7;
+		return;
+	}
+	if (dieuhuong == 8)
+	{
+		cout << "CHUC NANG BO SUNG SAU!\n";
+		goto A;
+	}
 	if (!m.count(dieuhuong))
 	{
 		cout << "Chuc nang khong ton tai";
@@ -317,11 +352,255 @@ A:
 	members[ID_now].setbalance(members[ID_now].getbalance() + m[dieuhuong] * dem);
 	up_balance();
 	cout << "Da nap " << m[dieuhuong] * dem << " thanh cong!" << endl;
+	string content = "NAP TIEN: TAI KHOAN CONG " + to_string(m[dieuhuong] * dem) + "    SO DU: " + to_string(members[ID_now].getbalance())+ " " + get_time();
+	insert_history(content);
+	_sleep(2000);
+	goto A;
+}
+void ATM::plusx(int* arr, long long sum, map<int, int>& x, bool& exit, const long long & cost_)
+{
+	for (int j = 0; j < 6; j++)
+	{
+		if (exit) return;
+		sum += arr[j];
+		x[arr[j]]++;
+		if (sum > cost_)
+		{
+			sum -= arr[j];
+			x[arr[j]]--;
+			continue;
+		}
+		if (sum < cost_)
+		{
+			plusx(arr, sum, x, exit, cost_);
+		}
+		if (sum == cost_)
+		{
+			for (auto& c : x)
+			{
+				if (c.second > money[c.first])
+				{
+					exit = true;
+					cout << "Sorry, we can't !\n";
+					return;
+				}
+			}
+			for (auto& c : x)
+			{
+				money[c.first] -= c.second;
+			}
+			up_menh_gia();
+			members[ID_now].setbalance(members[ID_now].getbalance() - cost_);
+			up_balance();
+			moneynow -= cost_;
+			cout << "Success!\n";
+			exit = true;
+			return;
+		}
+		sum -= arr[j];
+		x[arr[j]]--;
+	}
+}
+void ATM::xu_ly_tien(const long long& cost_)
+{
+	int arr[6] = { 500000, 200000, 100000, 50000, 20000, 10000 };
+	long long sum = 0;
+	map<int, int> x = { {10000,0},{20000,0},{50000,0},{100000,0},{200000,0},{500000,0} };
+	bool exit_ = false;
+	plusx(arr, sum, x, exit_, cost_);
+}
+void ATM::withdraw()
+{
+	long long cost;
+A:
+	gd_ruttien();
+	cin >> cost;
+	if (cost == 1)
+	{
+		lenh_ = 2;
+		return;
+	}
+	if (cost == 2)
+	{
+		lenh_ = 7;
+		return;
+	}
+	if (cost % 10000 != 0|| cost>3000000)
+	{
+		cout << "SO TIEN KHONG HOP LE!\n";
+		_sleep(time_delay);
+		goto A;
+	}
+	if (cost > moneynow)
+	{
+		cout << "MAY KHONG DU SO DU DE RUT SO TIEN NAY!\n";
+		goto A;
+	}
+	xu_ly_tien(cost);
+	string content = "RUT TIEN: TAI KHOAN TRU " + to_string(cost) + "    SO DU: "+to_string(members[ID_now].getbalance())+" " + get_time();
+	insert_history(content);
 	_sleep(time_delay);
 	goto A;
 }
-void ATM::xu_ly_tien(const long long& cost)
+void ATM::menu()
 {
-	map<int, size_t> m = { {500000,0},{200000,0},{100000,0},{50000,0},{20000,0},{10000,0} };
+	size_t lenh;
+A:
+	gd_menu_chinh();
+	cin >> lenh;
+	if (lenh > 6)
+	{
+		cout << "CHUC NANG KHONG HOP LE!\n";
+		_sleep(time_delay);
+		goto A;
+	}
+	else
+	{
+		lenh_ = lenh;
+	}
 
+}
+void ATM::xemtk()
+{
+A:
+	system("cls");
+	cout << "               THONG TIN TAI KHOAN             \n";
+	cout << setfill(' ') << left << setw(30) << "Xin chao " + ID_now << setw(30) << "So du: " +to_string(members[ID_now].getbalance()) << endl;
+	cout << setfill(' ') << left << setw(30) << "0. Quay lai" << setfill(' ') << setw(30) << "1. Xem lich su" << endl;
+	size_t rehuong;
+	cin >> rehuong;
+	switch (rehuong)
+	{
+	case 0:
+		lenh_=7;
+		return;
+	case 1:
+		lenh_ = 5;
+		return;
+	default:
+		cout << "CHUC NANG KHONG HOP LE!\n";
+		_sleep(time_delay);
+		goto A;
+	}
+
+} 
+void ATM::AD()
+{
+	cout << "CHUC NANG SE DUOC THEM SAU!;\n";
+	_sleep(time_delay);
+	lenh_ = 7;
+} 
+void ATM::lsrt()
+{
+	system("cls");
+	cout << "          LICH SU GIAO DICH                \n";
+	cout << setfill(' ') << left << setw(30) << "Xin chao " + ID_now << setw(30) << "So du: " +to_string(members[ID_now].getbalance()) << endl;
+	cout << setfill(' ') << left << setw(30) << "0. Quay lai\n" << endl;
+	prinf_history();
+	cout << endl;
+	int quaylai;
+	cin >> quaylai;
+	lenh_ = 7;
+}
+void ATM::log_out()
+{
+	size_t lenh;
+A:
+	gd_log_out();
+	cin >> lenh;
+	switch (lenh)
+	{
+	case 1:
+		lenh_ = 0;
+		ID_now = "";
+		return;
+	case 2:
+		lenh_ = 7;
+		return;
+	default:
+		cout << "LENH KHONG HOP LE\n";
+		goto A;
+	}
+}
+void ATM::TTDK()
+{
+	while (true)
+	{
+		switch (lenh_)
+		{
+		case 0:
+			login();
+			break;
+		case 1:
+			recharge();
+			break;
+		case 2:
+			xemtk();
+			break;
+		case 3:
+			AD();
+			break;
+		case 4:
+			withdraw();
+			break;
+		case 5:
+			lsrt();
+			break;
+		case 6:
+			log_out();
+			break;
+		case 7: //menu
+			menu();
+			break;
+		case 8:
+			QSMM();
+			break;
+		case 50:
+			regist();
+			break;
+		case 100:
+			cout << " CAM ON DA SU DUNG ATM CREATED BY GIAP HUY\n";
+			return;
+		default:
+			cout << "Chuc nang khong hop le!\n";
+			lenh_ = 7;
+			break;
+		}
+	}
+}
+void ATM::QSMM()
+{
+
+}
+string ATM::get_time()
+{
+	time_t now = time(0);
+	char dt[100];
+	errno_t erro = ctime_s(dt, 100, &now);
+	string time_t(dt);
+	return time_t;
+}
+void ATM::prinf_history()
+{
+	string line;
+	string link = ID_now + "history.txt";
+	ifstream file(link.c_str());
+	while (getline(file, line))
+	{
+		cout << line << endl;
+	}
+	file.close();
+}
+void ATM::insert_history(const string& content)
+{
+	fstream file;
+	string link = ID_now + "history.txt";
+	file.open(link.c_str(), ios::app);
+	file << "\n" << content;
+	file.close();
+}
+void start()
+{
+	ATM AD;
+	AD.TTDK();
 }

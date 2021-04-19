@@ -1,1 +1,1 @@
-chongyeuvo 0 1
+chongyeuvo 60000000 1

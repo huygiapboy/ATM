@@ -1,7 +1,6 @@
 #pragma once
 #include<iostream>
 #include<map>
-#include"history.h"
 using namespace std;
 class customer
 {
@@ -9,7 +8,6 @@ private:
 	long long balance;
 	string ID;
 	string pass;
-	history Trans;
 	bool lock;
 public:
 	customer();

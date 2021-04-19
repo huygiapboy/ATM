@@ -21,9 +21,6 @@
     <ClCompile Include="customer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="history.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -35,16 +32,13 @@
     <ClInclude Include="customer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="history.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="historyofATM.txt" />
     <Text Include="CurrentID.txt" />
     <Text Include="huygiapboy.txt" />
     <Text Include="admin.txt" />
-    <Text Include="creat1.txt" />
     <Text Include="Menhgia.txt" />
+    <Text Include="THRT.txt" />
   </ItemGroup>
 </Project>

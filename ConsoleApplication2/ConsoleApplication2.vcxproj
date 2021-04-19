@@ -142,20 +142,18 @@
     <ClCompile Include="ATM.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="customer.cpp" />
-    <ClCompile Include="history.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ATM.h" />
     <ClInclude Include="customer.h" />
-    <ClInclude Include="history.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="admin.txt" />
-    <Text Include="creat1.txt" />
     <Text Include="historyofATM.txt" />
     <Text Include="CurrentID.txt" />
     <Text Include="huygiapboy.txt" />
     <Text Include="Menhgia.txt" />
+    <Text Include="THRT.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

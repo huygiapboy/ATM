@@ -1,10 +1,5 @@
-#include"ATM.h"
-using namespace std;
+﻿#include"ATM.h"
 int main()
 {
-	ATM AD;
-	AD.login();
-	AD.recharge();
-
+	start();
 }
-

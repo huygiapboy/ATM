@@ -1,0 +1,95 @@
+void plus_2(int* arr, long long& sum, vector<int> &x, int i, bool& exit)
+{
+	for (int j = 0; j < 6; j++)
+	{
+		if (exit) return;
+		sum += arr[j];
+		if (i == x.size()) x.push_back(arr[j]);
+		else x[i] = arr[j];
+		for (auto& c : x)
+		{
+				cout << c<<" + ";
+		}
+		cout <<": "<< sum << endl;
+		if (sum > money)
+		{
+			sum -= arr[j];
+			x.pop_back();
+			continue;
+		}
+		if (sum < money)
+		{
+			plus_2(arr, sum, x,i+1, exit);
+		}
+		if (sum == money)
+		{
+			/*for (auto& c : x)
+			{
+				if (c.second)
+					cout << c.first << "*" << c.second << " + ";
+			}*/
+			/*exit = true;
+			return;*/
+			cout << "\nThis\n";
+			system("pause");
+			/*sum -= arr[j];
+			x.pop_back();*/
+		}
+		sum -= arr[j];
+		x.pop_back();
+	}
+}
+void plusx(int* arr, long long sum, map<int, int>& x, bool& exit)
+{
+	for (int j = 0; j < 6; j++)
+	{
+		if (exit) return;
+		sum += arr[j];
+		x[arr[j]]++;
+		dem++;
+		for (auto& c : x)
+		{
+			if (c.second)
+				cout << c.first << "*" << c.second << " + ";
+		}
+		cout << " : "<<sum << endl;
+		if (sum > money)
+		{
+			sum -= arr[j];
+			x[arr[j]]--;
+			continue;
+		}
+		if (sum < money)
+		{
+			plusx(arr, sum, x, exit);
+		}
+		if (sum == money)
+		{
+			bool cont = false;
+			for (auto& c : x)
+			{
+				if (c.second > y[c.first])
+				{
+					cont = true;
+					/*system("pause");*/
+					break;
+				}
+			}
+			if (cont)
+			{
+			    sum -= arr[j];
+			    x[arr[j]]--;
+				continue;
+			}
+			for (auto& c : x)
+			{
+				if (c.second)
+					cout << c.first << "*" << c.second << " + ";
+			}
+			exit = true;
+			return;
+		}
+		sum -= arr[j];
+		x[arr[j]]--;
+	}
+}
