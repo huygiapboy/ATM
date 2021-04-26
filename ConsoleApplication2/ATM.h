@@ -8,20 +8,24 @@
 #include<string>
 #include<vector>
 #include<ctime>
+#include<stdio.h>
 using namespace std;
 class ATM
 {
 private:
-    size_t time_delay;
+    unsigned long time_delay;
     set<string> listID;
     map<string, customer> members;
-    map<int, int> money;
+    map<int, size_t> money;
     string ID_now;
     long long moneynow;
     size_t lenh_;
 public:
     ATM();
     // cac ham sua file
+    void status_ID();
+    bool check_correctID(const string& ID_);
+    bool check_correctpass(const string& pass_);
     string mycontent(const string& link); //lay content
     void resetfile(const string& link,const  string& content); //
     void updatefile(const string& link, const string& content);
@@ -31,6 +35,7 @@ public:
     void up_balance();// cap nhat so tien member
     void prinf_listID(); //In danh sach cac ID da luu
     void loadmember(const string& ID); // load thong tin cua 1 member
+    void loadallmember();
     void prinf_all(); //in thong tin cac member
     bool checkpass(const string& pass); // KIem tra mat khau
     // 
@@ -40,7 +45,7 @@ public:
     // Cac ham tinh nang menu
     void log_out();
     void xemtk();
-    void lsrt();
+    void lsrt(const string& ID_);
     void AD();
     void recharge(); // Nap tien
     void withdraw(); // Rut tien
@@ -65,9 +70,13 @@ public:
     void TTDK();
     // cac lich su
     string get_time();
-    void prinf_history();
+    void prinf_history(const string& ID_);
+    void prinf_historyofATM();
     void insert_history();
-    void insert_history(const string& content);
+    void insert_history(const string& ID_, const string& content);
+    string getw(string content, size_t n);
+    void prinf_history(const string& ID_, size_t length);
 };
 void start();
+void test();
 

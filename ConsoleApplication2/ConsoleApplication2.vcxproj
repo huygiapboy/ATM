@@ -149,11 +149,13 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="admin.txt" />
-    <Text Include="historyofATM.txt" />
+    <Text Include="ATMhistory.txt" />
     <Text Include="CurrentID.txt" />
+    <Text Include="huy32673history.txt" />
     <Text Include="huygiapboy.txt" />
     <Text Include="Menhgia.txt" />
     <Text Include="THRT.txt" />
+    <Text Include="vodainhan.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,7 @@
+
+LOGIN                                                     Mon Apr 26 15:10:37 2021
+   
+NAP TIEN: TAI KHOAN CONG 200000    SO DU:  200000         Mon Apr 26 15:12:07 2021
+   
+RUT TIEN: TAI KHOAN TRU  10000     SO DU:  190000         Mon Apr 26 15:13:18 2021
+   

@@ -34,11 +34,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="historyofATM.txt" />
     <Text Include="CurrentID.txt" />
     <Text Include="huygiapboy.txt" />
     <Text Include="admin.txt" />
     <Text Include="Menhgia.txt" />
     <Text Include="THRT.txt" />
+    <Text Include="vodainhan.txt" />
+    <Text Include="ATMhistory.txt" />
+    <Text Include="huy32673history.txt" />
   </ItemGroup>
 </Project>
