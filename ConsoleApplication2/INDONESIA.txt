@@ -1,0 +1,178 @@
+0. KHOI TAO
+Menunggu benar-benar ...
+             SELAMAT DATANG DI ATM YANG DIBUAT OLEH GIAP HUY!
+3. ATM bool :: check_correctID ()
+Panjang akun harus antara 5 dan 10 karakter!
+5. ATM bool :: check_correctpass ()
+Akun harus lebih dari 6 karakter!
+Pembuatan kata sandi selesai! Selamat datang di ATM yang dibuat oleh Giap Huy!
+Kata sandi harus menyertakan huruf dan angka!
+9. batal ATM :: prinf_listID ()
+Daftar akun terdaftar
+Masukkan kunci apa saja untuk kembali!
+12. hindari ATM :: prinf_all ()
+Akun:
+Keseimbangan:
+STATUS:
+Aktif
+Terkunci
+18. batal ATM :: login ()
+Akun ini dikunci !. Silakan masukkan akun baru!
+ID sekarang diblokir setelah 5 gagal memasukkan kata sandi!
+Kata sandi salah! Silakan masuk kembali!
+Login Berhasil!
+Akun tidak ada!. Silakan masuk kembali!
+24. batal ATM :: register ()
+Akun telah ada!
+                GANTI KATA SANDI
+Kata Sandi Berhasil Berubah!
+ berhasil dibuat!
+29. batal ATM :: menu ()
+31. ATM tidak berlaku :: status_ID ()
+                Lihat status akun
+1. Kembali
+Masukkan Akun yang ingin Anda lihat:
+Akun tidak ada!
+1. Informasi akun
+2. Riwayat transaksi
+ berstatus Aktif, Kunci Akun ini?
+ berstatus Terkunci, aktifkan akun ini?
+1. Tidak dan Kembali
+2. Ya dan Kembali
+42. batal ATM :: log_out ()
+KELUAR SUKSES!
+45. ATM tidak berlaku :: xemtk ()
+               Informasi Akun
+Halo
+Keseimbangan
+1. Kembali ke Menu
+2. Ubah Kata Sandi
+52. void ATM :: lsrt (string const & ID_)
+          SEJARAH
+51. batal ATM :: isi ulang ()
+Anda diperbolehkan untuk memasukkan maksimal
+ catatan. Masukkan nomor
+ Anda ingin mengisi ulang
+Jumlah melebihi yang diizinkan! Harap baca dengan seksama!
+Isi ulang
+ Berhasil!
+58. batal ATM :: penarikan ()
+Uang Tidak Valid!
+Saldo ATM tidak mencukupi!
+Saldo akun tidak mencukupi!
+62. ATM tidak berlaku :: gd_log_out ()
+                KELUAR
+1. Konfirmasi Logout
+2. Kembali ke menu
+66. batal ATM :: gd_dang_nhap1 ()
+                      GABUNG
+1. Kembali
+2. Daftar
+Masukkan Akun Anda:
+71. void ATM :: gd_dang_nhap2 (string const & ID_)
+2. Keluar dari ATM
+1. Kembali
+ , Masukkan kata sandi Anda:
+74. ATM tidak berlaku :: gd_dang_ky1 ()
+               DAFTAR
+1. Keluar dari Regist
+Masukkan Akun baru yang ingin Anda daftarkan:
+78. ATM tidak berlaku :: gd_dang_ky2 ()
+Masukkan 1 untuk keluar
+Masukan kata sandi baru:
+Fungsi tidak valid!
+83. ATM tidak berlaku :: gd_menu_chinh ()
+                  TIDAK BISA
+Keseimbangan:*************
+1. Isi ulang
+2. Lihat Akun
+3. ADMIN
+5. Mundur
+6. Sejarah
+8. Keluar
+90. ATM tidak berlaku :: gd_guitien ()
+                 MENGISI ULANG
+1. Pecahan 500000
+2. Pecahan 200000
+3. Pecahan 100000
+4. Pecahan 50000
+5. Pecahan 20000
+6. Pecahan 10000
+0. Kembali
+99. ATM tidak berlaku :: gd_ruttien ()
+                 MUNDUR
+2. Lihat Akun
+1. Kembali ke menu
+Masukkan uang yang ingin Anda tarik. Perhatian: Uang harus minimal 10000, maksimal 3000000 dan kelipatan 10000!
+104. ATM tidak berlaku :: gd_AD ()
+                 ADMIN
+1. Lihat Daftar Akun
+2. Lihat Status Akun mana pun
+3. Sejarah ATM
+6. Kembali ke menu
+110. tidak berlaku ATM :: plusx
+Maaf! Masukkan uang baru yang ingin Anda tarik!
+Keberhasilan!
+112. ATM tidak berlaku :: TTDK ()
+Anda bukan ADMIN!
+TERIMA KASIH UNTUK ATM BEKAS YANG DIBUAT OLEH GIAP HUY!
+116. tidak berlaku ATM :: prinf_historyofATM ()
+         SEJARAH ATM
+120. void ATM :: Update_Money ()
+Masukkan nomor
+ Anda ingin mengisi ulang:
+KEBERHASILAN!
+Nomor Tidak Valid!
+125. ATM tidak berlaku :: gd_AD ()
+4. Status ATM
+5. Riwayat Nomor Keberuntungan
+128. ATM tidak berlaku :: gd_Status_ATM ()
+            STATUS ATM
+Sebuah keseimbangan:
+B.Denominasi:
+ catatan
+1. Kembali ke ADMIN
+2. Perbarui Uang
+135. ATM tidak berlaku :: gd_Update_Money ()
+           PERBARUI UANG
+0. Kembali
+138. ATM tidak berlaku :: Lucky_number ()
+             NOMOR KEBERUNTUNGAN
+Pilih Mode:
+1. 10X
+2. 20X
+3. 50X
+4. 100X
+5. 200X
+6. Kembali
+Akun tidak memiliki cukup Saldo!
+             NOMOR KEBERUNTUNGAN
+Mode:
+X
+0. Kembali
+Pilih nomor dari 1 hingga
+Ini membuang-buang 1000000 kali tetapi Anda dengan menerima
+ jika sama dengan angka keberuntungan.
+SEMOGA BERHASIL!
+Sekarang pilih nomor Anda:
+NOMOR KEBERUNTUNGAN AKAN:
+KONTUGRASI! ANDA SANGAT BERUNTUNG!
+KEBERUNTUNGAN NANTI!
+void ATM :: View_Lucky ()
+              KEBERUNTUNGAN AKUN
+Denominasi
+4. QSMM
+7. Transfer
+void ATM :: transfer ()
+                TRANSFER
+1. Kembali
+Masukkan Akun yang ingin Anda transfer:
+Akun tidak ada. Silakan masukkan Akun lain!
+Akun yang Anda masukkan adalah akun yang sama dengan Anda. Silakan masukkan Akun lain!
+Akun
+ transfer ke
+Masukkan uang yang ingin Anda transfer. Note: uang maxnimum: 50000000, minimum: 50000!
+Uang tidak valid!
+Akun Anda tidak memiliki cukup saldo!
+Uang harus dalam kisaran dari 50000 hingga 50000000
+TRANSFER BERHASIL!

@@ -1,45 +1,63 @@
-
-LOGIN                                                     Mon Apr 26 09:42:11 2021
-   
-NAP TIEN: TAI KHOAN CONG 10000000  SO DU:  78120000       Mon Apr 26 09:43:53 2021
-   
-LOGIN                                                     Mon Apr 26 11:01:48 2021
-   
-LOGIN                                                     Mon Apr 26 11:04:40 2021
-   
-LOGIN                                                     Mon Apr 26 11:18:54 2021
-   
-LOGIN                                                     Mon Apr 26 11:19:22 2021
-   
-LOGIN                                                     Mon Apr 26 11:20:16 2021
-   
-LOGIN                                                     Mon Apr 26 11:21:34 2021
-   
-LOGIN                                                     Mon Apr 26 12:01:46 2021
-   
-LOGIN                                                     Mon Apr 26 12:02:36 2021
-   
-LOGIN                                                     Mon Apr 26 12:03:34 2021
-   
-LOGIN                                                     Mon Apr 26 12:04:31 2021
-   
-LOGIN                                                     Mon Apr 26 12:05:54 2021
-   
-LOGIN                                                     Mon Apr 26 12:08:27 2021
-   
-LOGIN                                                     Mon Apr 26 12:10:04 2021
-   
-LOGIN                                                     Mon Apr 26 15:05:47 2021
-   
-NAP TIEN: TAI KHOAN CONG 5000000   SO DU:  83120000       Mon Apr 26 15:06:16 2021
-   
-RUT TIEN: TAI KHOAN TRU  120000    SO DU:  83000000       Mon Apr 26 15:07:12 2021
-   
-LOGIN                                                     Mon Apr 26 15:42:49 2021
-   
-LOGIN                                                     Mon Apr 26 15:45:03 2021
-   
-LOGIN                                                     Mon Apr 26 15:45:44 2021
-   
-LOGIN                                                     Mon Apr 26 15:46:56 2021
-   
+C.KHOAN:  TAI KHOAN TRU  10000000  SO DU:  3710000        Tue May 18 23:00:41 2021    TOI  huygiapboy
+C.KHOAN:  TAI KHOAN TRU  30000000  SO DU:  3710000        Tue May 18 23:03:35 2021    TOI  huygiapboy
+C.KHOAN:  TAI KHOAN CONG 100000    SO DU:  3810000        Tue May 18 23:05:03 2021    TU:  huygiapboy
+C.KHOAN:  TAI KHOAN CONG 1000000   SO DU:  4810000        Tue May 18 23:05:18 2021    TU:  huygiapboy
+C.KHOAN:  TAI KHOAN CONG 100000    SO DU:  4910000        Tue May 18 23:05:23 2021    TU:  huygiapboy
+C.KHOAN:  TAI KHOAN CONG 120000    SO DU:  5030000        Tue May 18 23:07:26 2021    TU:  huygiapboy
+C.KHOAN:  TAI KHOAN CONG 970000    SO DU:  6000000        Tue May 18 23:08:58 2021    TU:  huygiapboy
+LOGIN                                                     Tue May 18 23:21:46 2021    
+LOGIN                                                     Tue May 18 23:23:02 2021    
+LOGIN                                                     Tue May 18 23:24:43 2021    
+LOGIN                                                     Tue May 18 23:29:38 2021    
+LOGIN                                                     Tue May 18 23:43:59 2021    
+LOGIN                                                     Tue May 18 23:46:06 2021    
+LK NUB:   TAI KHOAN TRU  100000    SO DU:  5900000        Tue May 18 23:46:28 2021    
+LOGIN                                                     Tue May 18 23:48:24 2021    
+LOGIN                                                     Tue May 18 23:49:49 2021    
+LOGIN                                                     Tue May 18 23:50:48 2021    
+LOGIN                                                     Tue May 18 23:52:10 2021    
+LOGIN                                                     Wed May 19 00:05:11 2021    
+C.KHOAN:  TAI KHOAN TRU  90000000  SO DU:  5900000        Wed May 19 00:05:46 2021    TOI: huygiapboy
+LOGIN                                                     Wed May 19 00:25:33 2021    
+C.KHOAN:  TAI KHOAN TRU  100000    SO DU:  5900000        Wed May 19 00:25:40 2021    TOI: huygiapboy
+LOGIN                                                     Wed May 19 00:26:14 2021    
+C.KHOAN:  TAI KHOAN TRU  120000    SO DU:  5900000        Wed May 19 00:26:26 2021    TOI: huygiapboy
+LOGIN                                                     Wed May 19 01:25:35 2021    
+LOGIN                                                     Wed May 19 01:27:14 2021    
+RUT TIEN: TAI KHOAN TRU  500000    SO DU:  5400000        Wed May 19 01:27:49 2021    
+RUT TIEN: TAI KHOAN TRU  500000    SO DU:  4900000        Wed May 19 01:27:57 2021    
+RUT TIEN: TAI KHOAN TRU  700000    SO DU:  4200000        Wed May 19 01:28:06 2021    
+LOGIN                                                     Thu May 20 10:22:08 2021    
+LOGIN                                                     Thu May 20 10:22:54 2021    
+LOGIN                                                     Thu May 20 10:23:35 2021    
+LOGIN                                                     Thu May 20 10:26:34 2021    
+LOGIN                                                     Thu May 20 10:27:41 2021    
+LOGIN                                                     Thu May 20 10:28:29 2021    
+LOGIN                                                     Thu May 20 17:51:33 2021    
+LOGIN                                                     Fri May 21 16:49:32 2021    
+LOGIN                                                     Fri May 21 16:50:14 2021    
+LOGIN                                                     Fri May 21 16:51:55 2021    
+RUT TIEN: TAI KHOAN TRU  510000    SO DU:  3690000        Fri May 21 16:52:00 2021    
+LOGIN                                                     Fri May 21 16:53:08 2021    
+LOGIN                                                     Fri May 21 16:56:01 2021    
+LOGIN                                                     Fri May 21 17:03:41 2021    
+RUT TIEN: TAI KHOAN TRU  60000     SO DU:  3630000        Fri May 21 17:03:52 2021    
+LOGIN                                                     Fri May 21 17:04:59 2021    
+RUT TIEN: TAI KHOAN TRU  600000    SO DU:  3030000        Fri May 21 17:05:06 2021    
+RUT TIEN: TAI KHOAN TRU  600000    SO DU:  2430000        Fri May 21 17:05:31 2021    
+LOGIN                                                     Fri May 21 17:06:03 2021    
+RUT TIEN: TAI KHOAN TRU  600000    SO DU:  1830000        Fri May 21 17:06:09 2021    
+LOGIN                                                     Fri May 21 17:08:43 2021    
+RUT TIEN: TAI KHOAN TRU  600000    SO DU:  1230000        Fri May 21 17:09:10 2021    
+LOGIN                                                     Fri May 21 17:10:07 2021    
+RUT TIEN: TAI KHOAN TRU  600000    SO DU:  630000         Fri May 21 17:10:12 2021    
+LOGIN                                                     Fri May 21 17:11:09 2021    
+RUT TIEN: TAI KHOAN TRU  600000    SO DU:  30000          Fri May 21 17:11:14 2021    
+NAP TIEN: TAI KHOAN CONG 10000000  SO DU:  10030000       Fri May 21 17:11:46 2021    
+LOGIN                                                     Fri May 21 17:12:45 2021    
+RUT TIEN: TAI KHOAN TRU  550000    SO DU:  9480000        Fri May 21 17:12:56 2021    
+LOGIN                                                     Sat May 22 22:02:14 2021    
+LOGIN                                                     Sat May 22 22:21:55 2021    
+C.KHOAN:  TAI KHOAN TRU  7294283   SO DU:  9480000        Sat May 22 22:22:11 2021    TOI: huygiapboy
+LOGIN                                                     Sat May 22 22:23:13 2021    
+C.KHOAN:  TAI KHOAN TRU  18232623  SO DU:  9480000        Sat May 22 22:23:27 2021    TOI: huygiapboy

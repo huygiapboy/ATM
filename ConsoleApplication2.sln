@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.vcxproj", "{67EEB33E-37DA-4D0D-8AFB-E8017933DEEC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C338E450-61B0-4BE3-9AEF-8F750F7BF11B}"
+	ProjectSection(SolutionItems) = preProject
+		ConsoleApplication2\admin.txt = ConsoleApplication2\admin.txt
+		ConsoleApplication2\adminhistory.txt = ConsoleApplication2\adminhistory.txt
+		ConsoleApplication2\ATMhistory.txt = ConsoleApplication2\ATMhistory.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

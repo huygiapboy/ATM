@@ -1,0 +1,178 @@
+0. KHOI TAO
+En attendant vraiment ...
+             BIENVENUE AU GAB CRÉÉ PAR GIAP HUY!
+3. bool ATM :: check_correctID ()
+Le compte doit comporter entre 5 et 10 caractères!
+5. bool ATM :: check_correctpass ()
+Le compte doit comporter plus de 6 caractères!
+La création du mot de passe est terminée! Bienvenue au guichet automatique créé par Giap Huy!
+Le mot de passe doit inclure à la fois des lettres et des chiffres!
+9. vide ATM :: prinf_listID ()
+Liste des comptes enregistrés
+Entrez n'importe quelle clé pour revenir!
+12.void ATM :: prinf_all ()
+Compte:
+Équilibre:
+STATUT:
+actif
+Fermé à clé
+18. void ATM :: login ()
+Ce compte a été verrouillé !. Veuillez entrer un nouveau compte!
+L'ID est maintenant bloqué après 5 échec de saisie du mot de passe!
+Mauvais mot de passe! Veuillez entrer à nouveau!
+Connexion réussie!
+Le compte n'existe pas!. Veuillez entrer à nouveau!
+24. void ATM :: regist ()
+Le compte a existé!
+                CHANGER LE MOT DE PASSE
+Mot de passe changé avec succès!
+ créé avec succès!
+29. void ATM :: menu ()
+31. void ATM :: status_ID ()
+                Afficher l'état du compte
+1. Retour
+Entrez le compte que vous souhaitez voir:
+Ce compte n'existe pas!
+1. Informations sur le compte
+2. Historique des transactions
+ est dans le statut Actif, verrouiller ce compte?
+ est dans le statut Verrouillé, Activer ce compte?
+1. Non et retour
+2. Oui et retour
+42. void ATM :: log_out ()
+DÉCONNEXION RÉUSSIE!
+45. void ATM :: xemtk ()
+               Information sur le compte
+Bonjour
+Équilibre
+1. Retour au menu
+2. Changer le mot de passe
+52. void ATM :: lsrt (chaîne de const & ID_)
+          L'HISTOIRE
+51. void ATM :: recharge ()
+Vous êtes autorisé à saisir le maximum de
+ Remarques. Entrez le nombre de
+ tu veux recharger
+Quantité dépassée autorisée! Lisez attentivement s'il vous plaît!
+Recharger
+ À succès!
+58. void ATM :: remove ()
+Argent invalide!
+L'ATM a un solde insuffisant!
+Le solde du compte est insuffisant!
+62. void ATM :: gd_log_out ()
+                SE DÉCONNECTER
+1. Confirmer la déconnexion
+2. Retour au menu
+66. vide ATM :: gd_dang_nhap1 ()
+                      CONNEXION
+1. Retour
+2. Inscrivez-vous
+Entrez votre compte:
+71. void ATM :: gd_dang_nhap2 (chaîne de const & ID_)
+2. Quittez le guichet automatique
+1. Retour
+ , Tapez votre mot de passe:
+74. vide ATM :: gd_dang_ky1 ()
+               INSCRIPTION
+1. Quitter le registre
+Entrez le nouveau compte que vous souhaitez enregistrer:
+78. void ATM :: gd_dang_ky2 ()
+Entrez 1 pour quitter
+Entrez un nouveau mot de passe:
+Fonction invalide!
+83. void ATM :: gd_menu_chinh ()
+                  MENU
+Équilibre:*************
+1. Rechargez
+2. Afficher le compte
+3. ADMIN
+5. Withraw
+6. Histoire
+8. Déconnexion
+90. void ATM :: gd_guitien ()
+                 RECHARGER
+1. Dénomination 500000
+2. Dénomination 200000
+3. Dénomination 100000
+4. Dénomination 50000
+5. Dénomination 20000
+6. Valeur nominale 10000
+0. Retour
+99. void ATM :: gd_ruttien ()
+                 RETRAIT
+2. Afficher le compte
+1. Retour au menu
+Saisissez l'argent que vous souhaitez retirer. Remarque: L'argent doit être au minimum de 10000, au maximum de 3000000 et être un multiple de 10000!
+104. void ATM :: gd_AD ()
+                 ADMIN
+1. Afficher le compte de liste
+2. Afficher le statut de n'importe quel compte
+3. Histoire de l'ATM
+6. Retour au menu
+110. ATM vide :: plusx
+Pardon! Saisissez le nouvel argent que vous souhaitez retirer!
+Succès!
+112. void ATM :: TTDK ()
+Vous n'êtes pas ADMIN!
+MERCI POUR LE GAB UTILISÉ CRÉÉ PAR GIAP HUY!
+116. void ATM :: prinf_historyofATM ()
+         HISTOIRE DE L'ATM
+120. void ATM :: Update_Money ()
+Entrez le nombre de
+ vous souhaitez recharger:
+SUCCÈS!
+Numéro invalide!
+125. void ATM :: gd_AD ()
+4. Statut ATM
+5. Numéro porte-bonheur de l'histoire
+128. void ATM :: gd_Status_ATM ()
+            STATUT ATM
+Un équilibre:
+B. Dénominations:
+ Remarques
+1. Retour à ADMIN
+2. Mettre à jour Money
+135. void ATM :: gd_Update_Money ()
+           MISE À JOUR DE L'ARGENT
+0. Retour
+138. void ATM :: Lucky_number ()
+             NOMBRE CHANCEUX
+Choisissez le mode:
+1. 10X
+2. 20X
+3. 50X
+4. 100X
+5. 200X
+6. Retour
+Le compte n'a pas assez de solde!
+             NOMBRE CHANCEUX
+Mode:
+X
+0. Retour
+Choisissez un nombre de 1 à
+Il gaspille 1000000 une fois mais tu reçois
+ si c'est la même chose au numéro porte-bonheur.
+BONNE CHANCE!
+Maintenant, choisissez votre numéro:
+LE NOMBRE CHANCEUX SERA:
+CONTROGÉ, VOUS ÊTES SI CHANCEUX!
+BONNE CHANCE PLUS TARD!
+vide ATM :: View_Lucky ()
+              COMPTE CHANCEUX
+Dénomination
+4. QSMM
+7. Transfert
+void ATM :: transfer ()
+                TRANSFERT
+1. Retour
+Entrez le compte que vous souhaitez transférer:
+Le compte n'existait pas. Veuillez entrer un autre compte!
+Le compte que vous entrez est le même que vous. Veuillez entrer un autre compte!
+Compte
+ Transférer à
+Saisissez l'argent que vous souhaitez transférer. Remarque: argent maximum: 50000000, minimum: 50000!
+Argent invalide!
+Votre compte n'a pas assez de solde!
+L'argent doit être compris entre 50000 et 50000000
+TRANSFERT RÉUSSI!

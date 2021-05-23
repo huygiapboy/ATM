@@ -93,3 +93,51 @@ void plusx(int* arr, long long sum, map<int, int>& x, bool& exit)
 		x[arr[j]]--;
 	}
 }
+void ATM::prinf_history(const string& ID_, size_t length)
+{
+	string link = ID_ + "history.txt";
+	FILE* pfile = fopen(link.c_str(), "r");
+	fseek(pfile, -1, SEEK_END);
+	while (true)
+	{
+		char c = fgetc(pfile);
+		if (c <= '0' || c >= '9') fseek(pfile, -3, SEEK_CUR);
+		else break;
+	}
+	fseek(pfile, 0, SEEK_CUR);
+	/*fseek(pfile, -82-89, SEEK_CUR);
+
+	char c = fgetc(pfile);
+	cout << c;*/
+	long n;
+	do
+	{
+		fseek(pfile, -84 - 89, SEEK_CUR);
+		char s[100];
+		fgets(s, 100, pfile);
+		cout << s << endl;
+		n = ftell(pfile);
+	} while (n > 84);
+}
+//void ATM::prinf_history(const string& ID_, size_t length)
+//{
+//	string link = ID_ + "history.txt";
+//	FILE* pfile = fopen(link.c_str(), "r");
+//	fseek(pfile, 0, SEEK_END);
+//	while (true)
+//	{
+//		char c = fgetc(pfile);
+//		if (c <= '0' || c >= '9') fseek(pfile, -3, SEEK_CUR);
+//		else break;
+//	}
+//	fseek(pfile, 103, SEEK_CUR);
+//	long n;
+//	do
+//	{
+//		fseek(pfile, -96 - 101, SEEK_CUR);
+//		char s[100];
+//		fgets(s, 100, pfile);
+//		cout << s<<endl;
+//		n = ftell(pfile);
+//	} while (n > 96);
+//}

@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{420f6bd5-9cbe-40cd-ad6b-65c080da6e42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ATM.cpp">
@@ -24,6 +27,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SetConsole.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Showrain\Showrain\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ATM.h">
@@ -32,15 +41,80 @@
     <ClInclude Include="customer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SetConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Showrain\Showrain\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="CurrentID.txt" />
-    <Text Include="huygiapboy.txt" />
-    <Text Include="admin.txt" />
-    <Text Include="Menhgia.txt" />
-    <Text Include="THRT.txt" />
-    <Text Include="vodainhan.txt" />
-    <Text Include="ATMhistory.txt" />
-    <Text Include="huy32673history.txt" />
+    <Text Include="TK\12344321.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\12344321history.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\admin.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\adminhistory.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\ATMhistory.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\creat1.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\creat1history.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\CurrentID.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\huy32673.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\huy32673history.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\huygiapboy.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\Menhgia.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\THRT.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\vodainhan.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="TK\vodainhanhistory.txt">
+      <Filter>NewFilter1</Filter>
+    </Text>
+    <Text Include="..\..\Showrain\Showrain\DAULAU.txt" />
+    <Text Include="..\..\Showrain\Showrain\GAU.txt" />
+    <Text Include="..\..\Showrain\Showrain\GUN.txt" />
+    <Text Include="..\..\Showrain\Showrain\HaiTraitim.txt" />
+    <Text Include="..\..\Showrain\Showrain\KILAN.txt" />
+    <Text Include="..\..\Showrain\Showrain\LIKE.txt" />
+    <Text Include="..\..\Showrain\Showrain\TraiTim.txt" />
+    <Text Include="..\..\Showrain\Showrain\Wellcome.txt" />
+    <Text Include="ENGLISH.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ICONLOVE\IMG_2108.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -1,0 +1,178 @@
+0. KHOI TAO
+Warten auf wirklich ...
+             WILLKOMMEN BEI EINEM VON GIAP HUY ERSTELLTEN ATM!
+3. bool ATM :: check_correctID ()
+Das Konto muss zwischen 5 und 10 Zeichen lang sein!
+5. bool ATM :: check_correctpass ()
+Das Konto muss länger als 6 Zeichen sein!
+Die Passworterstellung ist abgeschlossen! Willkommen am Geldautomaten von Giap Huy!
+Das Passwort muss sowohl Buchstaben als auch Zahlen enthalten!
+9. ATM :: prinf_listID () ungültig machen
+Liste der registrierten Konten
+Geben Sie einen beliebigen Schlüssel ein, um zurückzukehren!
+12. Leere ATM :: prinf_all ()
+Konto:
+Balance:
+STATUS:
+Aktiv
+Gesperrt
+18. void ATM :: login ()
+Dieses Konto wurde gesperrt!. Bitte geben Sie ein neues Konto ein!
+ID wird jetzt gesperrt, nachdem 5 das Passwort nicht eingegeben hat!
+Falsches Passwort! Bitte erneut eingeben!
+Login erfolgreich!
+Konto existiert nicht!. Bitte erneut eingeben!
+24. void ATM :: regist ()
+Konto wurde existiert!
+                KENNWORT ÄNDERN
+Passwort geändert erfolgreich!
+ erfolgreich erstellt!
+29. void ATM :: menu ()
+31. void ATM :: status_ID ()
+                Kontostatus anzeigen
+1. Zurück
+Geben Sie das Konto ein, das Sie sehen möchten:
+Account existiert nicht!
+1. Kontoinformationen
+2. Transaktionsverlauf
+ ist im Status Aktiv, Konto sperren?
+ ist im Status Gesperrt, dieses Konto aktiv?
+1. Nein und zurück
+2. Ja und zurück
+42. ATM :: log_out () ungültig machen
+ERFOLGREICH ABMELDEN!
+45. void ATM :: xemtk ()
+               Kontoinformationen
+Hallo
+Balance
+1. Zurück zum Menü
+2. Ändern Sie das Passwort
+52. void ATM :: lsrt (const string & ID_)
+          GESCHICHTE
+51. void ATM :: recharge ()
+Sie dürfen das Maximum von eingeben
+ Anmerkungen. Geben Sie die Nummer von ein
+ Sie möchten aufladen
+Menge überschritten erlaubt! Bitte aufmerksam lesen!
+Aufladen
+ Erfolgreich!
+58. ATM :: Rückzug ungültig machen ()
+Ungültiges Geld!
+Geldautomat hat nicht genügend Guthaben!
+Konto hat nicht genügend Guthaben!
+62. ATM :: gd_log_out () ungültig machen
+                AUSLOGGEN
+1. Bestätigen Sie die Abmeldung
+2. Zurück zum Menü
+66. ATM :: gd_dang_nhap1 () ungültig machen
+                      ANMELDUNG
+1. Zurück
+2. Registrieren
+Geben Sie Ihr Konto ein:
+71. void ATM :: gd_dang_nhap2 (const string & ID_)
+2. Verlassen Sie den Geldautomaten
+1. Zurück
+ , Geben Sie Ihr Passwort ein:
+74. void ATM :: gd_dang_ky1 ()
+               REGIST
+1. Beenden Sie das Register
+Geben Sie ein neues Konto ein, das Sie registrieren möchten:
+78. void ATM :: gd_dang_ky2 ()
+Geben Sie 1 ein, um den Vorgang zu beenden
+Neues Passwort eingeben:
+Ungültige Funktion!
+83. ATM :: gd_menu_chinh () ungültig machen
+                  SPEISEKARTE
+Balance:*************
+1. Aufladen
+2. Konto anzeigen
+3. ADMIN
+5. Zurückziehen
+6. Geschichte
+8. Melden Sie sich ab
+90. ATM :: gd_guitien () ungültig machen
+                 AUFLADEN
+1. Stückelung 500000
+2. Stückelung 200000
+3. Stückelung 100000
+4. Stückelung 50000
+5. Stückelung 20000
+6. Stückelung 10000
+0. Zurück
+99. void ATM :: gd_ruttien ()
+                 ZURÜCKZIEHEN
+2. Konto anzeigen
+1. Zurück zum Menü
+Geben Sie Geld ein, das Sie abheben möchten. Hinweis: Das Geld muss mindestens 10000, höchstens 3000000 und ein Vielfaches von 10000 sein!
+104. ATM :: gd_AD () ungültig machen
+                 ADMINISTRATOR
+1. Listenkonto anzeigen
+2. Zeigen Sie den Status eines Kontos an
+3. Geschichte des Geldautomaten
+6. Zurück zum Menü
+110. ATM :: plusx ungültig machen
+Es tut uns leid! Geben Sie neues Geld ein, das Sie abheben möchten!
+Erfolg!
+112. ATM :: TTDK ungültig machen ()
+Du bist nicht ADMIN!
+DANKE FÜR DEN VON GIAP HUY ERSTELLTEN GEBRAUCHTEN ATM!
+116. ATM :: prinf_historyofATM () ungültig machen
+         GESCHICHTE DES ATM
+120. ATM :: Update_Money () ungültig machen
+Geben Sie die Nummer von ein
+ Sie möchten aufladen:
+ERFOLG!
+Ungültige Nummer!
+125. void ATM :: gd_AD ()
+4. Status Geldautomat
+5. Glückszahl der Geschichte
+128. void ATM :: gd_Status_ATM ()
+            STATUS ATM
+Ein Gleichgewicht:
+B. Stückelungen:
+ Anmerkungen
+1. Zurück zu ADMIN
+2. Geld aktualisieren
+135. void ATM :: gd_Update_Money ()
+           GELD AKTUALISIEREN
+0. Zurück
+138. void ATM :: Lucky_number ()
+             GLÜCKSZAHL
+Wählen Sie den Modus:
+1. 10X
+2. 20X
+3. 50X
+4. 100X
+5. 200X
+6. Zurück
+Konto hat nicht genug Guthaben!
+             GLÜCKSZAHL
+Modus:
+X.
+0. Zurück
+Wählen Sie eine Zahl von 1 bis
+Es wird einmal 1000000 verschwendet, aber Sie erhalten
+ wenn es gleich zur Glückszahl ist.
+VIEL GLÜCK!
+Wählen Sie nun Ihre Nummer:
+Die glückliche Nummer wird sein:
+KONTUGRIERT! SIE SIND SO GLÜCKLICH!
+Viel Glück später!
+void ATM :: View_Lucky ()
+              KONTO GLÜCKLICH
+Konfession
+4. QSMM
+7. Übertragen
+void ATM :: transfer ()
+                TRANSFER
+1. Zurück
+Geben Sie das Konto ein, das Sie übertragen möchten:
+Konto nicht vorhanden. Bitte geben Sie ein anderes Konto ein!
+Das von Ihnen eingegebene Konto ist dasselbe Konto für Sie. Bitte geben Sie ein anderes Konto ein!
+Konto
+ Transfer zu
+Geben Sie das Geld ein, das Sie überweisen möchten. Hinweis: Geldmaximum: 50000000, Minimum: 50000!
+Ungültiges Geld!
+Ihr Konto hat nicht genug Guthaben!
+Das Geld muss im Bereich von 50000 bis 50000000 liegen
+ÜBERTRAGUNG ERFOLGREICH!

@@ -1,0 +1,185 @@
+0. KHOI TAO
+Waiting for really...
+             WELCOME TO ATM CREATED BY GIAP HUY!
+3. bool ATM::check_correctID()
+Do dai Tai khoan phai tu 6 den 10 ky tu!
+5. bool ATM::check_correctpass()
+Do dai tai khoan phai tu 6 ky tu!
+Tao mat khau hoan tat. Chao mung den voi ATM tao boi Giap Huy!
+Tai khoan phai bao gom ca chu cai va so!
+9. void ATM::prinf_listID()
+Danh sach tai khoan da dang ky
+Nhap bat ky de quay lai!
+12.void ATM::prinf_all()
+Tai khoan: 
+So du: 
+Trang thai:
+Kich hoat
+Da khoa
+18. void ATM::login()
+Tai khoan nay da bi khoa! Vui long nhap tai khoan khac!
+Tai khoan nay bi khoa sau 5 lan nhap sai mat khau!
+Mat khau sai! Vui long nhap lai!
+Dang nhap thanh cong!
+Tai khoan khong ton tai! Vui long nhap lai!
+24. void ATM::regist()
+Tai khoan da ton tai!
+               DOI MAT KHAU                  
+Thay doi Mat khau thanh cong!
+ tao thanh cong!
+29. void ATM::menu()
+31. void ATM::status_ID()
+                XEM TRANG THAI TAI KHOAN
+1. Quay lai
+Nhap tai khoan ngai muon xem
+Tai khoan khong ton tai!
+1. Thong tin tai khoan
+2. Lich su giao dich
+ dang o trang thai Kich hoat, Khoa Tai khoan nay?
+ dang o trang thai Bi khoa, Kich hoat Tai khoan nay?
+1. Khong va Quay lai
+2. Co va Quay lai
+42. void ATM::log_out()
+DANG XUAT THANH CONG
+45. void ATM::xemtk()
+               THONG TIN TAI KHOAN
+Xin chao
+So du
+1. Quay lai Menu
+2. Doi Mat khau
+52. void ATM::lsrt(const string& ID_)
+          LICH SU
+51. void ATM::recharge()
+Ban duoc phep nhap toi da
+ to. Nhap so to 
+ ban muon nap:
+Qua so to duoc phep! Vui long doc can than!
+Nap tien 
+ Thanh cong!
+58. void ATM::withdraw()
+So tien khong hop le!
+ATM khong du so du!
+Tai khoan khong du so du!
+62. void ATM::gd_log_out()
+                DANG XUAT 
+1. Xac nhan Dang xuat
+2. Quay lai Menu
+66. void ATM::gd_dang_nhap1()
+                      DANG NHAP    
+1. Quay lai
+2. Dang ki
+Nhap Tai khoan cua ban:
+71. void ATM::gd_dang_nhap2(const string& ID_)
+2. Thoat ATM
+1. Quay lai
+ , Nhap Mat khau cua ban:
+74. void ATM::gd_dang_ky1()
+               DANG KI                  
+1. Thoat Dang ky
+Nhap Tai khoan moi ban muon Dang ki:
+78. void ATM::gd_dang_ky2()
+Nhap 1 de thoat
+Nhap mat khau dang ki:
+Chuc nang khong hop le!
+83. void ATM::gd_menu_chinh()
+                  MENU 
+So du:*************
+1. Nap tien
+2. Xem Tai khoan
+3. ADMIN
+5. Rut tien
+6. Lich su
+8. Dang xuat
+90. void ATM::gd_guitien()
+                 NAP TIEN
+1. Menh gia 500000 
+2. Menh gia 200000 
+3. Menh gia 100000 
+4. Menh gia 50000  
+5. Menh gia 20000  
+6. Menh gia 10000  
+0. Quay lai Menu
+99. void ATM::gd_ruttien()
+                 RUT TIEN
+2. Xem Tai khoan
+1. Quay lai Menu
+Nhap so tien ban muon rut. Chu y: So tien phai toi thieu 10000, toi da 3000000 va la boi so cua 10000!
+104. void ATM::gd_AD()
+                 CHU ATM
+1. Xem danh sach tai khoan
+2. Xem trang thai cua ID bat ki
+3. Lich su cua ATM
+6. Quay lai Menu
+110. void ATM::plusx
+Xin loi! Nhap so tien khac de rut!
+Success!
+112. void ATM::TTDK()
+Ban khong phai Chu ATM!
+CAM ON DA SU DUNG ATM TAO BOI GIAP HUY!
+116. void ATM::prinf_historyofATM()
+         LICH SU CUA ATM
+120. void ATM::Update_Money()
+Nhap so to 
+ ban muon nap:
+Thanh cong!
+So khong hop le!
+125. void ATM::gd_AD()
+4. Trang thai ATM
+5. Lich su QSMM
+128. void ATM::gd_Status_ATM()
+            TRANG THAI ATM
+A. So du: 
+B. Cac menh gia: 
+ to
+1. Quay lai ADMIN
+2. Cap nhat to tien
+135. void ATM::gd_Update_Money()
+           CAP NHAT TO TIEN
+0. Quay lai
+138. void ATM::Lucky_number()
+             QUAY SO MAY MAN
+Chon Che do:
+1. 10X
+2. 20X
+3. 50X
+4. 100X
+5. 200X
+6. Quay lai
+Tai khoan khong du So du!
+             QUAY SO MAY MAN
+Che do : 
+X
+0. Quay lai
+Chon mot so bat dau tu 1 den  
+Ban mat 100000 moi luot nhung se nhan lai  
+ neu do la con so may man! 
+CHUC MAY MAN!
+Bay gio chon con so cua ban: 
+CON SO MAY MAN SE LA :
+CHUC MUNG ! BAN VO CUNG MAY MAN!
+CHUC MAY MAN LAN SAU!
+void ATM::View_Lucky()
+              TAI KHOAN MAY MAN
+Menh gia 
+4. QSMM
+7. Chuyen tien
+void ATM::transfer()
+                CHUYEN TIEN                   
+1. Quay lai
+Nhap Tai khoan ban muon chuyen tien: 
+Tai khoan khong ton tai. Vui long nhap Tai khoan khac!
+Tai khoan nay la tai khoan cua ban. Vui long nhap tai khoan khac!
+Tai khoan 
+ chuyen khoan toi 
+Nhap so tien ban muon chuyen khoan. Chu y: So tien toi da: 50000000, toi thieu: 50000!
+So tien khong hop le!
+Tai khoan cua ban khong du So du!
+So tien trong khoang tu 50000 den 50000000
+CHUYEN TIEN THANH CONG!
+
+
+
+
+
+
+

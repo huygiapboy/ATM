@@ -41,3 +41,11 @@ bool customer::getlock()
 {
 	return lock;
 }
+void customer::setdem(size_t dem)
+{
+	this->dem = dem;
+}
+size_t customer::getdem()
+{
+	return dem;
+}

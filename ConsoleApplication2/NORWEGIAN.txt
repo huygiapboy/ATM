@@ -1,0 +1,178 @@
+0. KHOI TAO
+Venter på virkelig ...
+             VELKOMMEN TIL ATM OPLAGT AV GIAP HUY!
+3. bool minibank :: check_correctID ()
+Kontoen må være mellom 5 og 10 tegn!
+5. bool minibank :: check_correctpass ()
+Kontoen må inneholde mer enn 6 tegn!
+Opprettelse av passord er fullført! Velkommen til minibanken opprettet av Giap Huy!
+Passordet må inneholde både bokstaver og tall!
+9. ugyldig minibank :: prinf_listID ()
+Liste over registrerte kontoer
+Skriv inn hvilken som helst nøkkel for å returnere!
+12. unngå minibank :: prinf_all ()
+Regnskap:
+Balansere:
+STATUS:
+Aktiv
+Låst
+18. ugyldig minibank :: login ()
+Denne kontoen var låst !. Vennligst skriv inn ny konto!
+ID blir nå blokkert etter at 5 ikke har angitt passord!
+Feil passord! Vennligst skriv inn igjen!
+Pålogging Vellykket!
+Kontoen eksisterer ikke !. Vennligst skriv inn igjen!
+24. ugyldig minibank :: regist ()
+Det har eksistert en konto!
+                BYTT PASSORD
+Passord endret vellykket!
+ vellykket opprettet!
+29. ugyldig minibank :: meny ()
+31. ugyldig minibank :: status_ID ()
+                Se konto status
+1. Tilbake
+Skriv inn kontoen du vil se:
+Kontoen eksisterer ikke!
+1. Kontoinformasjon
+2. Transaksjonshistorikk
+ er i status Aktiv, Lås denne kontoen?
+ er i status Låst, aktiv denne kontoen?
+1. Nei og tilbake
+2. Ja og tilbake
+42. ugyldig minibank :: log_out ()
+LOGG UT SUCCESFULLT!
+45. ugyldig minibank :: xemtk ()
+               Kontoinformasjon
+Hallo
+Balansere
+1. Tilbake til menyen
+2. Endre passord
+52. ugyldig minibank :: lsrt (const string & ID_)
+          HISTORIE
+51. ugyldig minibank :: lade opp ()
+Du har lov til å angi maksimalt
+ notater. Angi antall
+ du vil lade opp
+Mengde overskredet tillatt! Vennligst les nøye!
+Lad opp
+ Vellykket!
+58. ugyldig minibank :: trekk ut ()
+Ugyldige penger!
+Minibank har ikke tilstrekkelig balanse!
+Kontoen har ikke tilstrekkelig saldo!
+62. ugyldig minibank :: gd_log_out ()
+                LOGG UT
+1. Bekreft utlogging
+2. Tilbake til menyen
+66. ugyldig minibank :: gd_dang_nhap1 ()
+                      LOGG INN
+1. Tilbake
+2. Registrer deg
+Skriv inn kontoen din:
+71. ugyldig minibank :: gd_dang_nhap2 (const string & ID_)
+2. Gå ut av minibank
+1. Tilbake
+ , Skriv inn passordet ditt:
+74. ugyldig minibank :: gd_dang_ky1 ()
+               REGISTRER
+1. Avslutt regist
+Skriv inn en ny konto du vil registrere:
+78. ugyldig minibank :: gd_dang_ky2 ()
+Angi 1 for å avslutte
+Skriv inn nytt passord:
+Ugyldig funksjon!
+83. ugyldig minibank :: gd_menu_chinh ()
+                  MENY
+Balansere:*************
+1. Lad opp
+2. Vis konto
+3. ADMIN
+5. Trekk deg tilbake
+6. Historie
+8. Logg av
+90. ugyldig minibank :: gd_guitien ()
+                 LAD OPP
+1. Valør 500000
+2. Valør 200000
+3. Valør 100000
+4. Valør 50000
+5. Valør 20000
+6. Valør 10000
+0. Tilbake
+99. ugyldig minibank :: gd_ruttien ()
+                 TREKKER
+2. Vis konto
+1. Tilbake til menyen
+Skriv inn penger du vil trekke tilbake. Merknad: Pengene må være minimum 10000, maksimum 3000000 og være et multiplum på 10000!
+104. ugyldig minibank :: gd_AD ()
+                 ADMIN
+1. Vis listekonto
+2. Se status for en hvilken som helst konto
+3. Minibankens historie
+6. Tilbake til menyen
+110. ugyldig minibank :: plusx
+Beklager! Skriv inn nye penger du vil ta ut!
+Suksess!
+112. ugyldig minibank :: TTDK ()
+Du er ikke ADMIN!
+TAKK FOR BRUKT minibank LAGET AV GIAP HUY!
+116. ugyldig minibank :: prinf_historyofATM ()
+         HISTORIE OM ATM
+120. ugyldig minibank :: Update_Money ()
+Angi antall
+ du vil lade opp:
+SUKSESS!
+Feil nummer!
+125. ugyldig minibank :: gd_AD ()
+4. Status minibank
+5. Historie heldig nummer
+128. ugyldig minibank :: gd_Status_ATM ()
+            STATUS-minibank
+En balanse:
+B. kirkesamfunn:
+ notater
+1. Tilbake til ADMIN
+2. Oppdater penger
+135. ugyldig minibank :: gd_Update_Money ()
+           OPPDATER PENGER
+0. Tilbake
+138. ugyldig minibank :: Lucky_number ()
+             LYKKETALL
+Velg modus:
+1. 10X
+2. 20X
+3. 50X
+4. 100X
+5. 200X
+6. Tilbake
+Kontoen har ikke nok saldo!
+             LYKKETALL
+Modus:
+X
+0. Tilbake
+Velg et tall fra 1 til
+Det kaster bort 1000000 en gang, men du får
+ hvis det samme til lykketall.
+LYKKE TIL!
+Velg nå nummeret ditt:
+DET HELDIGE ANTALLET BLIR:
+FULLT! DU ER SÅ HELDIG!
+LYKKE SENERE!
+ugyldig minibank :: View_Lucky ()
+              KONTO LYKKELIG
+Valør
+4. QSMM
+7. Overføring
+ugyldig minibank :: overføring ()
+                OVERFØRE
+1. Tilbake
+Skriv inn konto du vil overføre:
+Kontoen eksisterte ikke. Vennligst skriv inn en annen konto!
+Kontoen du angir, er den samme kontoen for deg. Vennligst skriv inn en annen konto!
+Regnskap
+ Overfør til
+Skriv inn pengene du vil overføre. Merk: penger maksimum: 50000000, minimum: 50000!
+Ugyldige penger!
+Kontoen din har ikke nok saldo!
+Pengene må variere fra 50000 til 50000000
+OVERFØR MULIG!

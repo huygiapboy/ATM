@@ -1,6 +1,5 @@
 #pragma once
 #include<iostream>
-#include<map>
 using namespace std;
 class customer
 {
@@ -9,6 +8,7 @@ private:
 	string ID;
 	string pass;
 	bool lock;
+	size_t dem;
 public:
 	customer();
 	customer(string ID, string pass);
@@ -20,5 +20,7 @@ public:
 	string getID();
 	void setpass(string pass);
 	string getpass();
+	void setdem(size_t dem);
+	size_t getdem();
 };
 

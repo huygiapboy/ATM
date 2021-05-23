@@ -1,0 +1,178 @@
+0. KHOI TAO
+Waiting for really...
+             WELCOME TO ATM CREATED BY GIAP HUY!
+3. bool ATM::check_correctID()
+Account must be between 5 and 10 characters in length!
+5. bool ATM::check_correctpass()
+Account must be more 6 characters long!
+Password creation is complete! Welcome to the ATM created by Giap Huy!
+Password must include both letters and numbers!
+9. void ATM::prinf_listID()
+List of registered accounts
+Enter any key to return!
+12.void ATM::prinf_all()
+Account: 
+Balance: 
+STATUS:
+Active
+Locked
+18. void ATM::login()
+This account was locked!. Please enter new account!
+ID now be blocked after 5 fail entering password!
+Wrong password! Please re-enter!
+Login Sucessful!
+Account does not exist!. Please re-enter!
+24. void ATM::regist()
+Account has been existed!
+                CHANGE PASSWORD                                      
+Password Changed Successful!
+ succuessful created!
+29. void ATM::menu()
+31. void ATM::status_ID()
+                View account status
+1. Back
+Enter the Account you want to see:
+Account not exist!
+1. Account information
+2. Transaction history
+ is in status Active, Lock this Account?
+ is in status Locked, Active this Account?
+1. No and Back
+2. Yes and Back
+42. void ATM::log_out()
+LOG OUT SUCCESSFULL!
+45. void ATM::xemtk()
+               Account information
+Hello
+Balance
+1. Back to Menu
+2. Change Password
+52. void ATM::lsrt(const string& ID_)
+          HISTORY
+51. void ATM::recharge()
+You are allowed to enter the maximum of 
+ notes. Enter the number of 
+ you want to recharge
+Quantity exceeded allowed! Please read carefully!
+Recharge 
+ Successful!
+58. void ATM::withdraw()
+Invalid Money!
+ATM has insufficient balance!
+Account has insufficient balance!
+62. void ATM::gd_log_out()
+                LOG OUT 
+1. Confirm Logout
+2. Back to menu
+66. void ATM::gd_dang_nhap1()
+                      LOGIN    
+1. Back
+2. Regist
+Enter your Account:
+71. void ATM::gd_dang_nhap2(const string& ID_)
+2. Exit ATM
+1. Back
+ , Enter your password:
+74. void ATM::gd_dang_ky1()
+               REGIST                  
+1. Exit Regist
+Enter new Account you want to regist:
+78. void ATM::gd_dang_ky2()
+Enter 1 to exit
+Enter new password:
+Invalid function!
+83. void ATM::gd_menu_chinh()
+                  MENU 
+Balance:*************
+1. Recharge
+2. View Account
+3. ADMIN
+5. Withraw
+6. History
+8. Log out
+90. void ATM::gd_guitien()
+                 RECHARGE
+1. Denomination 500000 
+2. Denomination 200000 
+3. Denomination 100000 
+4. Denomination 50000  
+5. Denomination 20000  
+6. Denomination 10000  
+0. Back 
+99. void ATM::gd_ruttien()
+                 WITHRAW
+2. View Account
+1. Back to menu
+Enter money you want to withraw. Notice: The money must be minimum 10000, maxnimum 3000000 and be a multiple of 10000!
+104. void ATM::gd_AD()
+                 ADMIN
+1. View List Account
+2. View Status of any Account
+3. ATM's History
+6. Back to menu
+110. void ATM::plusx
+Sorry! Enter new money you want to withraw!
+Success!
+112. void ATM::TTDK()
+You aren't ADMIN!
+THANK FOR USED ATM CREATED BY GIAP HUY!
+116. void ATM::prinf_historyofATM()
+         HISTORY OF ATM
+120. void ATM::Update_Money()
+Enter the number of 
+ you want to recharge:
+SUCCESS!
+Invalid Number!
+125. void ATM::gd_AD()
+4. Status ATM
+5. History Lucky Number
+128. void ATM::gd_Status_ATM()
+            STATUS ATM
+A. Balance: 
+B. Denominations: 
+ notes
+1. Back to ADMIN
+2. Update Money
+135. void ATM::gd_Update_Money()
+           UPDATE MONEY
+0. Back
+138. void ATM::Lucky_number()
+             LUCKY NUMBER
+Choose Mode:
+1. 10X
+2. 20X
+3. 50X
+4. 100X
+5. 200X
+6. Back
+Account doesn't have enough Balance!
+             LUCKY NUMBER
+Mode : 
+X
+0. Back
+Choose a number from 1 to 
+It waste 1000000 once time but you with recieve 
+ if it same to lucky number.
+GOOD LUCK!
+Now choose your number: 
+THE LUCKY NUMBER WILL BE :
+CONTUGRATED!YOU ARE SO LUCKY!
+GOOD LUCK LATER!
+void ATM::View_Lucky()
+              ACCOUNT LUCKY
+Denomination 
+4. QSMM
+7. Transfer
+void ATM::transfer()
+                TRANSFER                   
+1. Back
+Enter Account you want to transfer: 
+Account not existed. Please enter other Account!
+Account you enter is same account to you. Please enter other Account!
+Account 
+ transfer to 
+Enter the money you want to transfer. Note: money maxnimum: 50000000, minimum: 50000!
+Invalid money!
+Your Account doesn't have enough balance!
+The money must in range from 50000 to 50000000
+TRANSFER SUCCESSFUL!

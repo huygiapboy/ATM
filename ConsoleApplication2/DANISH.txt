@@ -1,0 +1,178 @@
+0. KHOI TAO
+Venter på virkelig ...
+             VELKOMMEN TIL ATM OPLAGET AF GIAP HUY!
+3. bool pengeautomat :: check_correctID ()
+Kontoen skal være mellem 5 og 10 tegn!
+5. bool pengeautomat :: check_correctpass ()
+Kontoen skal være mere end 6 tegn!
+Oprettelse af adgangskode er afsluttet! Velkommen til pengeautomat oprettet af Giap Huy!
+Adgangskoden skal indeholde både bogstaver og tal!
+9. ugyldig pengeautomat :: prinf_listID ()
+Liste over registrerede konti
+Indtast en vilkårlig nøgle for at vende tilbage!
+12. undgå pengeautomat :: prinf_all ()
+Konto:
+Balance:
+STATUS:
+Aktiv
+Låst
+18. ugyldig pengeautomat :: login ()
+Denne konto var låst !. Indtast venligst en ny konto!
+ID blokeres nu efter 5 undlader at indtaste adgangskode!
+Forkert kodeord! Indtast venligst igen!
+Login Succesfuld!
+Konto findes ikke !. Indtast venligst igen!
+24. ugyldig pengeautomat :: regist ()
+Der har eksisteret en konto!
+                SKIFT KODEORD
+Adgangskode ændret vellykket!
+ succesrig oprettet!
+29. ugyldig pengeautomat :: menu ()
+31. ugyldig pengeautomat :: status_ID ()
+                Se konto status
+1. Tilbage
+Indtast den konto, du vil se:
+Konto findes ikke!
+1. Kontooplysninger
+2. Transaktionshistorik
+ er i status Aktiv, låser du denne konto?
+ er i status Låst, aktiv denne konto?
+1. Nej og tilbage
+2. Ja og tilbage
+42. ugyldig pengeautomat :: log_out ()
+LOG OUT SUCCESFULL!
+45. ugyldig pengeautomat :: xemtk ()
+               Kontooplysninger
+Hej
+Balance
+1. Tilbage til menuen
+2. Skift adgangskode
+52. ugyldig pengeautomat :: lsrt (const string & ID_)
+          HISTORIE
+51. ugyldig pengeautomat :: genoplad ()
+Du har tilladelse til at indtaste det maksimale antal
+ noter. Indtast nummeret på
+ du vil genoplade
+Mængde overskredet tilladt! Læs omhyggeligt!
+Genoplad
+ Vellykket!
+58. ugyldig pengeautomat :: trække () tilbage
+Ugyldige penge!
+Pengeautomat har ikke tilstrækkelig balance!
+Kontoen har utilstrækkelig saldo!
+62. ugyldig pengeautomat :: gd_log_out ()
+                LOG UD
+1. Bekræft aflogning
+2. Tilbage til menuen
+66. ugyldig pengeautomat :: gd_dang_nhap1 ()
+                      LOG PÅ
+1. Tilbage
+2. Tilmeld dig
+Indtast din konto:
+71. ugyldig pengeautomat :: gd_dang_nhap2 (const string & ID_)
+2. Afslut pengeautomat
+1. Tilbage
+ , Skriv dit kodeord:
+74. ugyldig pengeautomat :: gd_dang_ky1 ()
+               REGISTRER
+1. Afslut tilmelding
+Indtast en ny konto, du vil tilmelde:
+78. ugyldig pengeautomat :: gd_dang_ky2 ()
+Indtast 1 for at afslutte
+Indtast nyt kodeord:
+Ugyldig funktion!
+83. ugyldig pengeautomat :: gd_menu_chinh ()
+                  MENU
+Balance:*************
+1. Genoplad
+2. Se konto
+3. ADMIN
+5. Træk tilbage
+6. Historie
+8. Log ud
+90. ugyldig pengeautomat :: gd_guitien ()
+                 OPLAD
+1. Benævnelse 500000
+2. Benævnelse 200000
+3. Benævnelse 100000
+4. Benævnelse 50000
+5. Benævnelse 20000
+6. Benævnelse 10000
+0. Tilbage
+99. ugyldig pengeautomat :: gd_ruttien ()
+                 TILBAGE
+2. Se konto
+1. Tilbage til menuen
+Indtast penge, du vil trække tilbage. Bemærk: Pengene skal være mindst 10000, maksimum 3000000 og være et multiplum på 10000!
+104. ugyldig pengeautomat :: gd_AD ()
+                 ADMIN
+1. Se konto
+2. Se status for enhver konto
+3. ATM's historie
+6. Tilbage til menuen
+110. ugyldig ATM :: plusx
+Undskyld! Indtast nye penge, du vil trække tilbage!
+Succes!
+112. ugyldig pengeautomat :: TTDK ()
+Du er ikke ADMIN!
+Tak for brugt pengeautomat oprettet af GIAP HUY!
+116. ugyldig pengeautomat :: prinf_historyofATM ()
+         HISTORIE OM ATM
+120. ugyldig pengeautomat :: Update_Money ()
+Indtast nummeret på
+ du vil genoplade:
+SUCCES!
+Ugyldigt nummer!
+125. ugyldig pengeautomat :: gd_AD ()
+4. Status-pengeautomat
+5. Historie heldigt tal
+128. ugyldig pengeautomat :: gd_Status_ATM ()
+            STATUS Hæveautomat
+A. Balance:
+B. kirkesamfund:
+ noter
+1. Tilbage til ADMIN
+2. Opdater penge
+135. ugyldig pengeautomat :: gd_Update_Money ()
+           OPDATER PENGE
+0. Tilbage
+138. ugyldig pengeautomat :: Lucky_number ()
+             LYKKETAL
+Vælg tilstand:
+1. 10X
+2. 20X
+3. 50X
+4. 100X
+5. 200X
+6. Tilbage
+Konto har ikke nok saldo!
+             LYKKETAL
+Tilstand:
+x
+0. Tilbage
+Vælg et tal fra 1 til
+Det spilder 1000000 en gang, men du modtager
+ hvis det samme med heldigt nummer.
+HELD OG LYKKE!
+Vælg nu dit nummer:
+DET HELDIGE NUMMER VÆR:
+KONFIGRERET! DU ER SÅ HELDIG!
+LYKKE SENERE!
+ugyldig pengeautomat :: View_Lucky ()
+              KONTO LYKKELIG
+Valør
+4. QSMM
+7. Overførsel
+ugyldig pengeautomat :: overførsel ()
+                OVERFØRSEL
+1. Tilbage
+Indtast den konto, du vil overføre:
+Konto eksisterede ikke. Indtast venligst en anden konto!
+Konto, du indtaster, er den samme konto for dig. Indtast venligst en anden konto!
+Konto
+ Overfør til
+Indtast de penge, du vil overføre. Bemærk: penge maxnimum: 50000000, minimum: 50000!
+Ugyldige penge!
+Din konto har ikke nok saldo!
+Pengene skal være i området fra 50000 til 50000000
+OVERFØR SUCCESFULD!

@@ -1,0 +1,178 @@
+0. KHOI TAO
+Wachten op echt ...
+             WELKOM BIJ ATM GEMAAKT DOOR GIAP HUY!
+3. bool ATM :: check_correctID ()
+Account moet tussen de 5 en 10 tekens lang zijn!
+5. bool ATM :: check_correctpass ()
+Account moet meer dan 6 tekens lang zijn!
+Het aanmaken van het wachtwoord is voltooid! Welkom bij de geldautomaat gemaakt door Giap Huy!
+Wachtwoord moet zowel letters als cijfers bevatten!
+9. ongeldig ATM :: prinf_listID ()
+Lijst met geregistreerde accounts
+Voer een willekeurige sleutel in om terug te keren!
+12. vermijd ATM :: prinf_all ()
+Account:
+Balans:
+TOESTAND:
+Actief
+Op slot
+18. ongeldig ATM :: login ()
+Dit account is vergrendeld !. Voer een nieuw account in!
+ID is nu geblokkeerd na 5 mislukken bij het invoeren van het wachtwoord!
+Verkeerd wachtwoord! Voer opnieuw in!
+Inloggen geslaagd!
+Account bestaat niet!. Voer opnieuw in!
+24. ongeldig ATM :: regist ()
+Account bestaat!
+                WACHTWOORD WIJZIGEN
+Wachtwoord gewijzigd succesvol!
+ succesvol gemaakt!
+29. ongeldig ATM :: menu ()
+31. ongeldig geldautomaat :: status_ID ()
+                Bekijk de accountstatus
+1. Terug
+Voer het account in dat u wilt zien:
+Account bestaat niet!
+1. Accountgegevens
+2. Transactiegeschiedenis
+ is in de status Actief, dit account vergrendelen?
+ heeft de status Vergrendeld, deze account actief?
+1. Nee en terug
+2. Ja en terug
+42. ongeldig ATM :: log_out ()
+UITLOGGEN SUCCESVOL!
+45. ongeldig ATM :: xemtk ()
+               Account Informatie
+Hallo
+Balans
+1. Terug naar menu
+2. Wachtwoord wijzigen
+52. ongeldig ATM :: lsrt (const string & ID_)
+          GESCHIEDENIS
+51. ongeldig ATM :: recharge ()
+U mag het maximum invoeren van
+ notities. Voer het aantal in
+ je wilt opladen
+Hoeveelheid overschreden toegestaan! Lees aandachtig!
+Herladen
+ Geslaagd!
+58. ongeldig geldautomaat :: intrekken ()
+Ongeldig geld!
+Geldautomaat heeft onvoldoende saldo!
+Account heeft onvoldoende saldo!
+62. ongeldig ATM :: gd_log_out ()
+                UITLOGGEN
+1. Bevestig uitloggen
+2. Terug naar menu
+66. ongeldig geldautomaat :: gd_dang_nhap1 ()
+                      LOG IN
+1. Terug
+2. Registreer
+Voer uw account in:
+71. ongeldig ATM :: gd_dang_nhap2 (const string & ID_)
+2. Verlaat ATM
+1. Terug
+ , Voer uw wachtwoord in:
+74. ongeldig ATM :: gd_dang_ky1 ()
+               REGISTREREN
+1. Verlaat Regist
+Voer een nieuw account in dat u wilt registreren:
+78. ongeldig ATM :: gd_dang_ky2 ()
+Voer 1 in om af te sluiten
+Voer een nieuw wachtwoord in:
+Ongeldige functie!
+83. ongeldig geldautomaat :: gd_menu_chinh ()
+                  MENU
+Balans:*************
+1. Herladen
+2. Bekijk account
+3. BEHEERDER
+5. Terugtrekken
+6. Geschiedenis
+8. Log uit
+90. ongeldig ATM :: gd_guitien ()
+                 OPLADEN
+1. Coupure 500000
+2. Coupure 200000
+3. Coupure 100000
+4. Coupure 50000
+5. Coupure 20000
+6. Coupure 10000
+0. Terug
+99. ongeldig geldautomaat :: gd_ruttien ()
+                 INTREKKEN
+2. Bekijk account
+1. Terug naar menu
+Voer het geld in dat u wilt opnemen. Opmerking: het geld moet minimaal 10000, maximaal 3000000 en een veelvoud van 10000 zijn!
+104. ongeldig ATM :: gd_AD ()
+                 BEHEERDER
+1. Bekijk lijstaccount
+2. Bekijk de status van een account
+3. Geldautomaat geschiedenis
+6. Terug naar menu
+110. ongeldig ATM :: plusx
+Sorry! Voer nieuw geld in dat u wilt opnemen!
+Succes!
+112. ongeldig ATM :: TTDK ()
+U bent geen ADMIN!
+BEDANKT VOOR GEBRUIKTE ATM GEMAAKT DOOR GIAP HUY!
+116. ongeldig ATM :: prinf_historyofATM ()
+         GESCHIEDENIS VAN ATM
+120. ongeldig ATM :: Update_Money ()
+Voer het aantal in
+ je wilt opladen:
+SUCCES!
+Ongeldig nummer!
+125. ongeldig ATM :: gd_AD ()
+4. Status geldautomaat
+5. Geschiedenis Geluksgetal
+128. ongeldig ATM :: gd_Status_ATM ()
+            STATUS ATM
+Een balans:
+B. denominaties:
+ notities
+1. Terug naar ADMIN
+2. Werk geld bij
+135. ongeldig ATM :: gd_Update_Money ()
+           GELD BIJWERKEN
+0. Terug
+138. ongeldig ATM :: Lucky_number ()
+             GELUKSNUMMER
+Kies modus:
+1. 10X
+2. 20X
+3. 50X
+4. 100x
+5. 200X
+6. Terug
+Account heeft niet genoeg saldo!
+             GELUKSNUMMER
+Modus:
+X
+0. Terug
+Kies een nummer van 1 tot
+Het verspilt een keer 1000000, maar u ontvangt
+ als het hetzelfde geluksgetal is.
+SUCCES!
+Kies nu uw nummer:
+HET GELUKKIGE AANTAL ZAL ZIJN:
+VERVOLG! JE BENT ZO GELUKKIG!
+LATER GELUK!
+ongeldig ATM :: View_Lucky ()
+              ACCOUNT GELUKKIG
+Denominatie
+4. QSMM
+7. Overdracht
+ongeldig ATM :: transfer ()
+                OVERDRACHT
+1. Terug
+Voer het account in dat u wilt overdragen:
+Account bestaat niet. Voer een ander account in!
+Het account dat u invoert, is hetzelfde account voor u. Voer een ander account in!
+Account
+ Overzetten naar
+Voer het geld in dat u wilt overboeken. Let op: geld maxnimum: 50000000, minimum: 50000!
+Ongeldig geld!
+Je account heeft niet genoeg saldo!
+Het geld moet tussen de 50.000 en 50.000.000 zijn
+OVERDRACHT SUCCESVOL!

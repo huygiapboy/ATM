@@ -139,23 +139,50 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Showrain\Showrain\Object.cpp" />
     <ClCompile Include="ATM.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="customer.cpp" />
+    <ClCompile Include="SetConsole.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Showrain\Showrain\Object.h" />
     <ClInclude Include="ATM.h" />
     <ClInclude Include="customer.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="SetConsole.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="admin.txt" />
-    <Text Include="ATMhistory.txt" />
-    <Text Include="CurrentID.txt" />
-    <Text Include="huy32673history.txt" />
-    <Text Include="huygiapboy.txt" />
-    <Text Include="Menhgia.txt" />
-    <Text Include="THRT.txt" />
-    <Text Include="vodainhan.txt" />
+    <Text Include="..\..\Showrain\Showrain\DAULAU.txt" />
+    <Text Include="..\..\Showrain\Showrain\GAU.txt" />
+    <Text Include="..\..\Showrain\Showrain\GUN.txt" />
+    <Text Include="..\..\Showrain\Showrain\HaiTraitim.txt" />
+    <Text Include="..\..\Showrain\Showrain\KILAN.txt" />
+    <Text Include="..\..\Showrain\Showrain\LIKE.txt" />
+    <Text Include="..\..\Showrain\Showrain\TraiTim.txt" />
+    <Text Include="..\..\Showrain\Showrain\Wellcome.txt" />
+    <Text Include="ENGLISH.txt" />
+    <Text Include="TK\12344321.txt" />
+    <Text Include="TK\12344321history.txt" />
+    <Text Include="TK\admin.txt" />
+    <Text Include="TK\adminhistory.txt" />
+    <Text Include="TK\ATMhistory.txt" />
+    <Text Include="TK\creat1.txt" />
+    <Text Include="TK\creat1history.txt" />
+    <Text Include="TK\CurrentID.txt" />
+    <Text Include="TK\huy32673.txt" />
+    <Text Include="TK\huy32673history.txt" />
+    <Text Include="TK\huygiapboy.txt" />
+    <Text Include="TK\Menhgia.txt" />
+    <Text Include="TK\THRT.txt" />
+    <Text Include="TK\vodainhan.txt" />
+    <Text Include="TK\vodainhanhistory.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ICONLOVE\IMG_2108.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
